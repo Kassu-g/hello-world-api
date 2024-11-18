@@ -7,8 +7,8 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/echo/:id', (req, res) => {
-  const { huuto } = req.params;  
-  res.json({ huuto });
+  const { id } = req.params;  
+  res.json({ id });
 });
 app.use(express.json());
 app.post('/sum', (req, res) => {
