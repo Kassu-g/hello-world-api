@@ -12,10 +12,10 @@ app.get('/echo/:id', (req, res) => {
 });
 app.use(express.json());
 app.post('/sum', (req, res) => {
-    const { luvut } = req.body;
+    const { numbers } = req.body;
   
   
-    const sum = luvut.reduce((summa, luku) => summa + luku, 0);
+    const sum = numbers.reduce((summa, luku) => summa + luku, 0);
   
     res.json({ sum });
   });
