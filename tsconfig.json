@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "outDir": "./dist",
+      "noEmitOnError": true,
+      "rootDir": "./src",
+      "strict": true
+    },
+    "include": [
+      "src/**/*.ts"
+    ]
+}
